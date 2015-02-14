@@ -1,5 +1,7 @@
 <?php
 
+namespace Jocolopes;
+
 class Filefilter {
   protected $basepath;
   protected $returnBasePath;
@@ -62,7 +64,7 @@ class Filefilter {
     $directory = implode('/', $split) . '/' . $last;
     $filter = str_replace(
       ['/', '.', "{TOGETHERREPLACE}" ,'**', '*'],
-      ['\/','\.', '.+?', '.+', '.+?'], 
+      ['\/','\.', '.+?', '.+?', '.+?'], 
       $directory
     );
     return $filter;
