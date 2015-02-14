@@ -2,6 +2,7 @@
   "name": "jocolopes/filefilter",
   "description": "Provides an easy way to scan and filter files",
   "type": "library",
+  "version": "1.0.0",
   "keywords": ["library","file","filesystem","filter","filefilter"],
   "license": "MIT",
   "authors": [
@@ -14,5 +15,8 @@
     "classmap": [
       "Jocolopes"
     ]
+  },
+  "require": {
+    "php": ">=5.4.0"
   }
 }
